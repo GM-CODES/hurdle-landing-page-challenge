@@ -86,12 +86,12 @@ header nav a {
   font-weight: 700;
 }
 
-header nav .btn {
-  box-shadow: 0 0 8px #ddd;
+header nav a:hover {
+  color: var(--Grayish-Blue);
 }
 
-nav a:active {
-  color: var(--Grayish-Blue);
+header nav .btn {
+  box-shadow: 0 0 8px #ddd;
 }
 
 header .showcase {
@@ -123,7 +123,7 @@ header .showcase .showcase-content .btn {
   box-shadow: 0px 5px 10px #ddd;
 }
 
-header .showcase .showcase-content a:active {
+header .showcase .showcase-content a:hover {
   background: var(--light-pink);
 }
 
@@ -214,7 +214,7 @@ section .box-4 .btn {
   padding: 15px 60px;
 }
 
-.box-4 a:active {
+.box-4 a:hover {
   background: var(--light-pink);
 }
 
@@ -228,7 +228,7 @@ section .box-4 .btn {
   padding: 30px 70px;
 }
 
-.footer-content a:active {
+.footer-content a:hover {
   text-decoration: underline;
 }
 
@@ -260,7 +260,7 @@ section .box-4 .btn {
   margin-right: 7px;
 }
 
-.footer-content .social a:active {
+.footer-content .social a:hover {
   color: var(--Pink);
   border-color: var(--Pink);
 }
