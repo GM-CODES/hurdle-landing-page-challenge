@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/GM-CODES/hurdle-landing-page-challenge.git)
-- Live Site URL: [Add live site URL here](https://hurdle-landing-page-challenge.vercel.app/)
+- Solution URL: [Solution URL](https://github.com/GM-CODES/hurdle-landing-page-challenge.git)
+- Live Site URL: [Live site URL](https://hurdle-landing-page-challenge.vercel.app/)
 
 ## My process
 
