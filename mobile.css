@@ -1,0 +1,141 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+
+body {
+  max-width: 375px;
+  font-size: 1rem;
+}
+
+#container {
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+header {
+  background: url(./images/bg-hero-mobile.svg) no-repeat center center/cover;
+  padding: 20px 30px;
+  background-color: var(--Very-Pale-Cyan);
+}
+
+header nav a {
+  color: var(--Very-Dark-Cyan);
+  background: #fff;
+  padding: 5px 25px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  box-shadow: 0 0 7px #ddd;
+}
+
+header nav img {
+  width: 30%;
+}
+
+header .showcase {
+  flex-direction: column;
+  align-items: center;
+}
+
+header .showcase .showcase-content {
+  max-width: 100%;
+  text-align: center;
+}
+
+header .showcase .showcase-content p {
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 1.5rem;
+}
+
+header .showcase img {
+  max-width: 100%;
+  margin-top: 70px;
+}
+
+.box {
+  border: #ddd 0 solid;
+  border-radius: 10px;
+  grid: none;
+  grid-template-rows: 1fr 1fr;
+  align-items:center;
+  justify-content:space-between;
+  max-width: 100%;
+  padding: 50px 25px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.box img {
+  max-width: 300px;
+  justify-self: center;
+  margin: 0;
+  order: 1;
+}
+
+.box .content {
+  justify-self: center;
+  margin: 0;
+  text-align: center;
+  order: 2;
+}
+
+section {
+  max-width: 100%;
+}
+
+section .box-4 {
+  padding: 40px 17px;
+}
+
+section .box-4 h2 {
+  font-size: 1.2rem;
+}
+
+
+section .box-4 a {
+  padding: 10px 30px;
+  font-size: 0.75rem;
+}
+
+.footer-content {
+  display: block;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer-content .info {
+ display: block;
+ margin-top: 25px;
+}
+
+.footer-content .info .about, .footer-content .info .other-info, .footer-content .info .social {
+  margin-left: 0;
+  padding-left: 10px;
+  text-align: start;
+}
+
+.footer-content .info .social, .footer-content .info .about {
+  margin-top: 50px;
+}
+
+.footer-content .info .social {
+  text-align: center;
+}
+
+footer {
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top: 20px;
+}
