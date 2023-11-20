@@ -23,12 +23,16 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
-- See active states for all interactive elements on the page
+- See active/hover states for all interactive elements on the page
 
 ### Screenshot
 
-![Mobile-View](./screenshot.jpg)
-![Desktop-View](./screenshot.jpg)
+![Mobile-View](./screenshots/mobile_view.jpg)
+![Desktop-View](./screenshots/desktop_view%201.png)
+![Desktop-View2](./screenshots/desktop_view%202.png)
+![Desktop-View3](./screenshots/desktop_view%203.png)
+![Desktop-View4](./screenshots/desktop_view%204.png)
+![Desktop-View5](./screenshots/desktop_view%205.png)
 
 ### Links
 
